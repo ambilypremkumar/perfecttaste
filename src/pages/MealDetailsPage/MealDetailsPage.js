@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-//import "./MealDetailsPage.scss";
 import App from '../../App';
 import CategoryList from '../../components/Category/CategoryList';
 import MealSingle from "../../components/Meal/MealSingle";

@@ -1,5 +1,4 @@
 import React from 'react';
-//import "./Header.scss";
 import App from "../../App.scss";
 import Navbar from "./Navbar";
 import SearchForm from "./SearchForm";

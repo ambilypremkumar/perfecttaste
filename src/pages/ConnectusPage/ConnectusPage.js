@@ -1,18 +1,16 @@
 import React from 'react';
-//import "./ConnectusPage.scss";
+
 import App from "../../App.scss";
-//import { useMealContext } from '../../context/mealContext';
+
 import Loader from "../../components/Loader/Loader";
-//import CategoryList from "../../components/Category/CategoryList";
-//import NotFound from "../../components/NotFound/NotFound";
-//import MealList from "../../components/Meal/MealList";
+
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
-//import { Container } from 'react-bootstrap/lib/Tab';
+
 import { Container } from 'react-bootstrap';
 import { Tab } from 'react-bootstrap';
 

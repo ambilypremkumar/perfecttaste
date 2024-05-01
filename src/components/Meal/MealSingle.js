@@ -1,5 +1,4 @@
 import React from 'react';
-//import "./Meal.scss";
 import App from '../../App';
 import { FaUtensilSpoon } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";

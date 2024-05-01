@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import App from "../../App.scss";
-//import "./Category.scss";
+
 
 const CategoryList = ({categories}) => {
   return (

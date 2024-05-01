@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-//import "./CategoryPage.scss";
 import App from "../../App.scss";
 import { useMealContext } from '../../context/mealContext';
 import MealList from '../../components/Meal/MealList';

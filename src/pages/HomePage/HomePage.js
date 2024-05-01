@@ -1,5 +1,4 @@
 import React from 'react';
-//import "./HomePage.scss";
 import App from "../../App.scss";
 import { useMealContext } from '../../context/mealContext';
 import Loader from "../../components/Loader/Loader";

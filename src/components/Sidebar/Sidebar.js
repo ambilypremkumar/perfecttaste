@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSidebarContext } from '../../context/sidebarContext';
 import { ImCancelCircle} from "react-icons/im";
-//import "./Sidebar.scss";
 import App from '../../App';
 import { Link } from "react-router-dom";
 import { useMealContext } from '../../context/mealContext';
