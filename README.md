@@ -8,6 +8,10 @@ Prerequisites:
         npm start
     3.visit website
         Localhost:3000
+    4. Live deployment url
+        perfecttaste.vercel.app
+
+        
 Key Features:
     •	The landing page welcomes visitors with stunning visuals and a brief introduction to the website. It highlights featured recipes, and an invitation to explore further. Users can easily navigate to different sections of the website from here.
     •	Perfect Taste includes at least three subpages, each dedicated to a specific aspect of the culinary world. These subpages are seamlessly linked via routing, allowing users to effortlessly transition between different sections of the website. 
