@@ -16,6 +16,7 @@ import Image from 'react-bootstrap/Image';
 
 const BlogPage = () => {
     return(
+        <div>
             <section className="campus">
                 <h1>Customer Preperations</h1>
                 <p>
@@ -64,6 +65,48 @@ const BlogPage = () => {
                     </div>
                 </div>
             </section>
+            <section className="course">
+            <h1>Client review</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor
+              nisi at arcu tempus, in tincidunt sem maximus. Vivamus hendrerit, felis in
+              condimentum ultricies, elit sem bibendum sapien, sed molestie turpis enim
+              sed nibh. Morbi diam magna, varius condimentum commodo at, lobortis a dolor.{" "}
+            </p>
+            <div className="row">
+              <div className="course-col" style={{ backgroundColor: "#fcedda" }}>
+                <h3>Excellent recipes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  porttitor nisi at arcu tempus, in tincidunt sem maximus. Vivamus
+                  hendrerit, felis in condimentum ultricies, elit sem bibendum sapien, sed
+                  molestie turpis enim sed nibh. Morbi diam magna, varius condimentum
+                  commodo at, lobortis a dolor.
+                </p>
+              </div>
+              <div className="course-col" style={{ backgroundColor: "#f2fbcb" }}>
+                <h3>Worth visiting </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  porttitor nisi at arcu tempus, in tincidunt sem maximus. Vivamus
+                  hendrerit, felis in condimentum ultricies, elit sem bibendum sapien, sed
+                  molestie turpis enim sed nibh. Morbi diam magna, varius condimentum
+                  commodo at, lobortis a dolor.
+                </p>
+              </div>
+              <div className="course-col" style={{ backgroundColor: "#f7d8f9" }}>
+                <h3>Easy and short recipes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  porttitor nisi at arcu tempus, in tincidunt sem maximus. Vivamus
+                  hendrerit, felis in condimentum ultricies, elit sem bibendum sapien, sed
+                  molestie turpis enim sed nibh. Morbi diam magna, varius condimentum
+                  commodo at, lobortis a dolor.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>  
     );
 }
 
