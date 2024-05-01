@@ -18,7 +18,7 @@ const BlogPage = () => {
     return(
         <div>
             <section className="campus">
-                <h1>Customer Preperations</h1>
+                <h1>Client Preperations</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor
                     nisi at arcu tempus, in tincidunt sem maximus. Vivamus hendrerit, felis in
