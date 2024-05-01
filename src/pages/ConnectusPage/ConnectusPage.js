@@ -20,24 +20,40 @@ const ConnectusPage = () => {
     const text3="You can send your delicioius recipes to us at perfecttaste@gmail.com including the videos and details ";
     return (
         <div>
-            <div className='contact' id='contact'>
-                <h1 className='contact-title'>Send us your feedback</h1>
-                <div className="contact-container">
-                    <img className='contact-image' src='./assets/contact.png' alt=''></img>
-                    <form >
-                        <label htmlFor="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name.." required/>
-
-                        <label htmlFor="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Your email..." required/>
-
-                        <label htmlFor="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Write something.." required></textarea>
-
-                        <input type="submit" value="Submit" />
+            <Container>
+                <div className="contactus-form">
+                    <h4>Send us your feedback</h4>
+                    <form>
+                        <input type="text" id="name" name="name" required="" placeholder="Name" />
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required=""
+                        placeholder="Email"
+                        />
+                        <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required=""
+                        placeholder="Subject"
+                        />
+                        <textarea
+                        id="message"
+                        name="message"
+                        rows={4}
+                        required=""
+                        placeholder="Your Message"
+                        defaultValue={""}
+                        />
+                        <button type="submit" className="submit-button-style">
+                        SEND MESSAGE
+                        </button>
                     </form>
                 </div>
-            </div>
+            </Container>
+
             <div className='contact1'>
                 <Container>
                     <Row>

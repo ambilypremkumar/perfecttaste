@@ -41,57 +41,66 @@ const AboutusPage = () => {
                     </Row>
                 </Container>
             </div>
-            <div>
-                <Container>
-                    <h1>{text3}</h1>
-                    <Row className='Aboutus2 grid'>
-                        <Col sm={4}>
-                            <CardGroup lg={3} className='CardGroup'>
-                                    <Card className='card'>
-                                        <Card.Img
-                                        variant="top"
-                                        src="https://www.simplyrecipes.com/thmb/HyxSNZsB-YsfJPpiYfSMpkoGlig=/300x450/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-EmmaChristensen-dacf1e23a5224a72bfbaa1c84a353b24.jpg"
-                                        style={{ width: '200px', height: '300px' }}
-                                        />
-                                        <Card.Body>
-                                        <Card.Title className='card-title'>Emma Christensen</Card.Title>
-                                        <Card.Text>
-                                        GENERAL MANAGER
-                                        </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card className='card'>
-                                        <Card.Img
-                                        variant="top"
-                                        src="https://www.simplyrecipes.com/thmb/s1IGrjFplCWvOYwYP3Pv1PznEV4=/300x450/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-MyoQuinn2b-ce880f9bd09f4b0b89b729505c457df4.jpg"
-                                        style={{ width: '200px', height: '300px' }}
-                                        />
-                                        <Card.Body>
-                                        <Card.Title className='card-title'>Myo Quinn</Card.Title>
-                                        <Card.Text>
-                                        ART DIRECTOR
-                                        </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card className='card'>
-                                        <Card.Img
-                                        variant="top"
-                                        src="https://www.simplyrecipes.com/thmb/_d12A_WDLFUu1nwHpIzKCOQP3sA=/300x450/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-LaurelRandolph-98d7d28e116c4268ae452e0601664c15.jpg"
-                                        style={{ width: '200px', height: '300px' }}
-                                        />
-                                        <Card.Body>
-                                        <Card.Title className='card-title'>Laurel Randolph</Card.Title>
-                                        <Card.Text>
-                                        SENIOR EDITOR
-                                        </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                            </CardGroup>
-                        </Col>
-                    
-                    </Row>
-                </Container>
-            </div>
+            <section className="our-team">
+                <h2 style={{ textAlign: "center" }}>Our Team</h2>
+                <div className="row">
+                    <div className="column">
+                    <div className="card">
+                        <img
+                        src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-olly-733872.jpg&fm=jpg"
+                        alt="Julia"
+                        style={{ width: "100%" }}
+                        />
+                        <div className="container">
+                        <h2>Julia Susan</h2>
+                        <p className="title">CEO &amp; Founder</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>juliaa@example.com</p>
+                        <p>
+                            <button className="button">Contact</button>
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="column">
+                    <div className="card">
+                        <img
+                        src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg"
+                        alt="Rose"
+                        style={{ width: "100%" }}
+                        />
+                        <div className="container">
+                        <h2>Rose Fadrik</h2>
+                        <p className="title">Manager</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>rose@example.com</p>
+                        <p>
+                            <button className="button">Contact</button>
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="column">
+                    <div className="card">
+                        <img
+                        src="https://img.freepik.com/free-photo/cheerful-dark-skinned-woman-smiling-broadly-rejoicing-her-victory-competition-among-young-writers-standing-isolated-against-grey-wall-people-success-youth-happiness-concept_273609-1246.jpg"
+                        alt="Alice"
+                        style={{ width: "100%" }}
+                        />
+                        <div className="container">
+                        <h2>Alice Jacob</h2>
+                        <p className="title">Employee</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>alice@example.com</p>
+                        <p>
+                            <button className="button">Contact</button>
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
             
          </div>
       );
